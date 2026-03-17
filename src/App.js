@@ -11,7 +11,7 @@ function App() {
 
 
         <button onClick={() => setCount(count - 1)}>Odejmij</button>
-
+        <button onClick={() => setCount(count / 2)}>podziel</button>
 
 
         <span style={{ margin: '0 10px' }}>Licznik: {count}</span>
