@@ -1,7 +1,16 @@
+import { useState } from 'react';
+
 function App() {
+  const [count, setCount] = useState(0);
+
   return (
     <div>
-      czesc moja strona
+      KONIEC PRACY
+      <div style={{ marginTop: '20px' }}>
+        <button onClick={() => setCount(count - 1)}>Odejmij</button>
+        <span style={{ margin: '0 10px' }}>Licznik: {count}</span>
+        <button onClick={() => setCount(count + 1)}>Dodaj</button>
+      </div>
     </div>
   );
 }
