@@ -17,7 +17,7 @@ function App() {
         <span style={{ margin: '0 10px' }}>Licznik: {count}</span>
 
 
-        <button onClick={() => setCount(count * 1)}>pomnoz</button>
+        <button onClick={() => setCount(count * 2)}>pomnoz</button>
 
         <button onClick={() => setCount(count + 1)}>Dodaj</button>
       </div>
